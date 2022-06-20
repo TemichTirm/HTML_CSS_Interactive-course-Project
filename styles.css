@@ -9,24 +9,24 @@ html {
     color: #1F3F68;
 }
 
-.header1{
+h1{
     font-size: 64px;
     color: #1F3F68;
     text-align: center;
 }
 
-.header2_contacts{
+h2{
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
 
-.header3{
+h3{
     font-size: 36px;
     text-align: center;
 }
 
-.header4{
+h4{
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
@@ -49,4 +49,8 @@ html {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.copyright{
+    text-align: right;
 }

@@ -10,34 +10,54 @@
 </head>
 
 <body>
-    <div id="header">
-        <a href="index.html">Главная</a>
-        <a href="contacts.html">Контакты</a>
+    <div class="header">
+        <div class="header__wrapper">
+            <div class="menu">
+                <a href="index.html">Главная</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div class="header__content">
+                <h1>Наш главный сайт</h1>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ipsa culpa,
+                    tempore, voluptatibus nisi quod eveniet porro facilis, esse asperiores corrupti incidunt quas voluptatum
+                    impedit! Explicabo rem eveniet unde cum.
+                </p>
+            </div>
+        </div>
     </div>
-    <div id="content">
-        <h1 class="header1">Наш главный сайт</h1>
-        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ipsa culpa,
-            tempore, voluptatibus nisi quod eveniet porro facilis, esse asperiores corrupti incidunt quas voluptatum
-            impedit! Explicabo rem eveniet unde cum.</p>
-        <h3 class="header3">Заголовок третьего уровня</h3>
-        <h4 class="header4">Самый маленький заголовок четвертого уровня</h4>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsum saepe
-            placeat quo error rerum?</p>
-        <h3 class="header3">Заголовок третьего уровня2</h3>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi!</p>
+    <div clas="main">
+        <h3>Заголовок третьего уровня</h3>
+        <div class="main__wrapper">
+            <div class="main__content">
+                <h4>Самый маленький заголовок четвертого уровня</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsum saepe
+                    placeat quo error rerum?
+                </p>
+            </div>
+        </div>
+        <div class="separate__text">
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur enim in mollitia sit molestiae nesciunt!</p>
+        </div>
     </div>
-    <div id="footer">
-        <h3 class="header3">Footer</h3>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            asperiores!</p>
+    <div class="footer">
+        <div class="footer__top">
+            <div class="footer__top__content">
+                <h3>Footer</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                    asperiores!
+                </p>
+            </div>
+        </div>
         <hr style="margin: 0">
-        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div class="footer__bottom">
             <ul style="list-style-type: none; padding: 0; margin: 5px">
                 <li>Наши контакты:</li>
                 <li>тел.: +7 (495)777-77-77</li>
                 <li>e-mail: 777777@gmail.com</li>
             </ul>
-            <p style="margin: auto; margin-right: 5px;">Все права защищены &copy;</p>
+            <div class="copyright">
+                <p class="text">Все права защищены &copy;</p>
+            </div>
         </div>
     </div>
 </body>
